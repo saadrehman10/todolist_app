@@ -10,6 +10,11 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(), body: const Placeholder());
+    return Scaffold(
+        body: SafeArea(
+      child: Column(
+        
+      ),
+    ));
   }
 }

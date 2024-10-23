@@ -15,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 2), () => Navigator.popAndPushNamed(context, '/HomeScreen'));
+    Timer(const Duration(seconds: 3), () => Navigator.popAndPushNamed(context, '/HomeScreen'));
   }
 
   @override
@@ -29,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
         width: screenWidth,
         color: AppColors.primary,
         child: Center(
-          child: Image.asset(AppImages.appLogo),
+          child: SizedBox(height: 200, child: Image.asset(AppImages.appLogo)),
         ),
       ),
     );
