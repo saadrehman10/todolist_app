@@ -5,9 +5,9 @@ import 'package:todolist_app/util/text.dart';
 class TaskDetailScreen extends StatelessWidget {
   const TaskDetailScreen({super.key});
 
-   String taskDescription(String  id) {
-      
-   }
+  String taskDescription(String id) {
+    return '';
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,6 @@ class TaskDetailScreen extends StatelessWidget {
           TaskDetailScreenText.headingTitle,
           style: TextStyle(color: AppColors.tertiary, fontSize: 40),
         ),
-
       ],
     )));
   }

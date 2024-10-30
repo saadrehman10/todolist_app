@@ -1,0 +1,10 @@
+tow approaches for handing task 
+  the first one 
+    step 1: create all the task in one map with id 
+    step 2: create a felid in user with the task id 
+
+    step 3: check the user login every time and call the all task and then filter them with respect to user 
+
+
+   the second one 
+     step 2:  
