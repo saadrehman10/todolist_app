@@ -10,4 +10,4 @@ tow approaches for handing task
      step 1: same separation as earlier  but take will be maped this time with respect to user id like 
      {userid1: [
       all the task of that respective user
-     ]}  
+     ]}  this will be the task with store like a map not maps of task
