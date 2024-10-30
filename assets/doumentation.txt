@@ -7,4 +7,7 @@ tow approaches for handing task
 
 
    the second one 
-     step 2:  
+     step 1: same separation as earlier  but take will be maped this time with respect to user id like 
+     {userid1: [
+      all the task of that respective user
+     ]}  
